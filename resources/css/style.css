@@ -1,0 +1,53 @@
+/*Universal styles*/
+html {
+  font-style: 16px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/*header*/
+header {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  border-bottom: 1px solid grey;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 1.5rem;
+  font-size: 1.5rem;
+}
+
+header .logo img {
+  height: 3.5rem;
+}
+
+header strong {
+  opacity: 0.7;
+}
+
+header .logo span {
+  color: grey;
+  opacity: 0.9;
+}
+
+header nav ul {
+  display: flex;
+  font-size: 1.25rem;
+  margin-right: 1.5rem;
+}
+
+header nav li a {
+  text-decoration: none;
+  color: grey;
+}
+
+header nav .blue {
+  padding: 1.3rem 1rem 1.3rem 0;
+  background-color: blue;
+}
