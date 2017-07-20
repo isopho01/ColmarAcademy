@@ -3,7 +3,7 @@ html {
   font-style: 16px;
 }
 
-strong {
+.strong {
   font-weight: bold;
 }
 
@@ -49,5 +49,273 @@ header nav li a {
 
 header nav .blue {
   padding: 1.3rem 1rem 1.3rem 0;
-  background-color: blue;
+  background-color: lightblue;
+  margin: 0 0.25rem ;
+}
+
+/*Main*/
+
+/*Banner*/
+#banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: grey;
+}
+
+.img-container {
+  width: 60%;
+  margin: 2rem 2.5rem 2rem 1.5rem;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+#banner .contents {
+  width: 30%;
+  margin-right: 5rem;
+}
+
+#banner .contents h1 {
+  font-size: 3.4rem;
+  font-weight: bold;
+  line-height: 1.2;
+  opacity: 0.7;
+}
+
+#banner .contents p {
+  padding: 2rem 0;
+  font-size: 2rem;
+  line-height: 1.2;
+  opacity: 0.7;
+}
+
+#banner .contents .btn {
+  padding: 0.5rem;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+/*Articles*/
+#articles {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/*Main article*/
+#articles .main.article {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1.5rem 2rem;
+  border-right: 1px solid grey;
+
+}
+
+#articles .main.article .img-container {
+  margin: 2rem 0;
+  width: 100%;
+}
+
+#articles .main.article .contents h1 {
+  font-size: 2.7rem;
+  font-weight: bold;
+  opacity: 0.7;
+  line-height: 1.2;
+}
+
+#articles .main.article .contents p {
+  font-size: 1.45rem;
+  padding: 1.5rem 2rem 1.5rem 0;
+  margin-bottom: 1rem;
+}
+
+#articles .main.article .contents .author {
+  font-size: 1rem;
+}
+
+/*Small articles*/
+#articles .secondary.article {
+  display: flex;
+  flex-direction: column;
+}
+
+#articles .small.article {
+  display: flex;
+  align-items: center;
+  width: 423px;
+}
+
+#articles .small.article .img-container {
+  width: 35%;
+  margin: 1rem;
+}
+
+#articles .small.article:last-child .img-container {
+  width: 60%;
+}
+
+#articles .small.article .contents h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+#articles .small.article .contents p {
+  font-size: 1rem;
+  padding: 0.5rem 0;
+  line-height: 1.6;
+}
+
+#articles .small.article .contents a {
+  font-size: 1rem;
+  color: blue;
+  text-decoration: none;
+}
+
+/*Courses*/
+#learn {
+  background-color: grey;
+}
+
+#learn .courses {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#learn h1 {
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#learn .course {
+  width: 350px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem 2rem 0;
+}
+
+#learn .course .container {
+  height: 350px;
+}
+
+#learn .course .container img{
+  width: 100%;
+}
+
+#learn .course .container h2 {
+  font-size: 1.5rem;
+  padding: 1rem 1rem 0.5rem;
+}
+
+#learn .course .container p {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+#learn .course .detail {
+  font-size: 1rem;
+  padding-bottom: 1.5rem;
+  margin-right: 4rem;
+  line-height: 1.4;
+}
+
+/*Thesis exhibit*/
+#thesis{
+  display: flex;
+}
+
+h1.thesis {
+  font-size: 2rem;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+#thesis .video {
+  padding: 0 1rem 2rem 1.5rem;
+  width: 75%;
+}
+
+#thesis .video-container video{
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+#thesis .video .container h2 {
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+#thesis .video .container p {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+#thesis .exhibits {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+}
+
+#thesis .exhibits .exhibit {
+  display: flex;
+  width: 423px;
+  height: 168px;
+  padding: 1rem;
+}
+
+#thesis .exhibits .exhibit img {
+  width: 175px;
+  padding-right: 1rem;
+}
+
+#thesis .exhibits .exhibit .contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#thesis .exhibit:last-child .contents{
+  justify-content: center;
+  line-height: 1.8;
+}
+
+#thesis .exhibits .exhibit .contents h1 {
+  font-size: 1.5rem;
+}
+
+#thesis .exhibits .exhibit .contents p {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+/*Footer*/
+footer {
+  display: flex;
+  height: 75px;
+  border-top: 1px solid lightgrey;
+  padding: 1rem 1.5rem 0;
+  font-size: 1rem;
+}
+
+footer .copyrights {
+  flex-grow: 1;
+}
+
+footer .info a{
+  padding-left: 0.5rem;
+  color: grey;
+  text-decoration: none;
 }
