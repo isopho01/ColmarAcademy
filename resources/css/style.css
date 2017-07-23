@@ -56,39 +56,6 @@ p {
   line-height: 1.4;
 }
 
-/*Animations*/
-header a:hover {
-  background-color: #00d2d6;
-  transition: background-color  0.75s linear 0s;
-}
-
-#banner .contents .btn:hover {
-  background-color: #00d2d6;
-  transition: background-color 0.75s linear 0.25s;
-}
-
-#articles .small.article:hover {
-  background-color: #8c8c8c;
-  transition: background-color 0.5s ease-out 0s;
-}
-
-#articles .small.article .contents a:hover {
-  color: blue;
-}
-
-#learn .courses .course:hover {
-  background-color: #00d2d6
-}
-
-#thesis .exhibit:hover {
-  background-color: #8c8c8c;
-  transition: background-color 0.5s ease-out 0s;
-}
-
-footer .info a:hover {
-  color: #00d2d6;
-}
-
 /*header*/
 header .desktop{
   display: flex;
@@ -336,6 +303,39 @@ footer .copyrights {
 footer .info a{
   padding-left: 0.5rem;
   color: #404040;
+}
+
+/*Animations*/
+header a:hover {
+  background-color: #00d2d6;
+  transition: background-color  0.75s linear 0s;
+}
+
+#banner .contents .btn:hover {
+  background-color: #00d2d6;
+  transition: background-color 0.75s linear 0.25s;
+}
+
+#articles .small.article:hover {
+  background-color: #8c8c8c;
+  transition: background-color 0.5s ease-out 0s;
+}
+
+#articles .small.article .contents a:hover {
+  color: blue;
+}
+
+#learn .courses .course:hover {
+  background-color: #00d2d6
+}
+
+#thesis .exhibit:hover {
+  background-color: #8c8c8c;
+  transition: background-color 0.5s ease-out 0s;
+}
+
+footer .info a:hover {
+  color: #00d2d6;
 }
 
 /*Media*/
